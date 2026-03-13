@@ -1,0 +1,9 @@
+body {
+    font-family: 'Public Sans', sans-serif;
+    min-height: max(884px, 100dvh);
+}
+
+/* Modal timer ring animation state */
+#timer-progress {
+    transition: stroke-dashoffset 10s linear;
+}
